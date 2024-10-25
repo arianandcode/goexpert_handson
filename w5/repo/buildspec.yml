@@ -26,3 +26,4 @@ phases:
       - printf '[{"name":"web","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 artifacts:
     files: imagedefinitions.json
+    name: myweb-imagedefinitions
